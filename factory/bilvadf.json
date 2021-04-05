@@ -1,0 +1,9 @@
+{
+	"name": "bilvadf",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9aa2d8f5-89b9-48d4-a2f4-0f1ba0258a93",
+		"tenantId": "c8dee40f-fd9f-49c9-b741-722dc5c4ae7c"
+	}
+}
