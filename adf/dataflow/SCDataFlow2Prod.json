@@ -1,0 +1,16 @@
+{
+	"name": "SCDataFlow2Prod",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"name": "SCDataFlow2"
+				}
+			],
+			"sinks": [],
+			"transformations": [],
+			"script": "source(allowSchemaDrift: true,\n\tvalidateSchema: false) ~> SCDataFlow2"
+		}
+	}
+}
