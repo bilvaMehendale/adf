@@ -23,9 +23,9 @@
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"connectionString": "integrated security=True;data source=bilva;initial catalog=AdventureWorksDW2012",
+			"connectionString": "integrated security=True;data source=bilva;initial catalog=AdventureWorks2012",
 			"userName": "BILVA\\Lenovo",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyMjkxODdjOS1hZjg3LTRkYzYtOWNlMy1lNDE5NGMzZTIwZjEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmOWU0NmExZi02YmU4LTQ3OTQtYmU3NC03ODg1MDdmNDJiMTQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "OnPremIR",
