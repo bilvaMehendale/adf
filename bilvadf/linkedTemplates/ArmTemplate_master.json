@@ -7,13 +7,25 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "bilvadf"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+		},
 		"AzureSqlDatabase1_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase1'"
 		},
-		"AzureSqlDatabaseL1_connectionString": {
+		"SqlServerForAss1_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabaseL1'"
+			"metadata": "Secure string for 'connectionString' of 'SqlServerForAss1'"
+		},
+		"SqlServerForAss1_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'SqlServerForAss1'"
+		},
+		"SqlServerForAss1_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "BILVA\\Lenovo"
 		},
 		"containerUri": {
 			"type": "string",
@@ -42,11 +54,20 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
+					},
 					"AzureSqlDatabase1_connectionString": {
 						"value": "[parameters('AzureSqlDatabase1_connectionString')]"
 					},
-					"AzureSqlDatabaseL1_connectionString": {
-						"value": "[parameters('AzureSqlDatabaseL1_connectionString')]"
+					"SqlServerForAss1_connectionString": {
+						"value": "[parameters('SqlServerForAss1_connectionString')]"
+					},
+					"SqlServerForAss1_password": {
+						"value": "[parameters('SqlServerForAss1_password')]"
+					},
+					"SqlServerForAss1_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServerForAss1_properties_typeProperties_userName')]"
 					}
 				}
 			},

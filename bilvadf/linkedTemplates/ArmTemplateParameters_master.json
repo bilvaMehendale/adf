@@ -5,11 +5,20 @@
 		"factoryName": {
 			"value": "bilvadf"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
 		"AzureSqlDatabase1_connectionString": {
 			"value": ""
 		},
-		"AzureSqlDatabaseL1_connectionString": {
+		"SqlServerForAss1_connectionString": {
 			"value": ""
+		},
+		"SqlServerForAss1_password": {
+			"value": ""
+		},
+		"SqlServerForAss1_properties_typeProperties_userName": {
+			"value": "BILVA\\Lenovo"
 		},
 		"containerUri": {
 			"value": ""
