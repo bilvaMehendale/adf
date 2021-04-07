@@ -2,12 +2,30 @@
 	"name": "SqlServerForAss1",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
+		"parameters": {
+			"servername": {
+				"type": "string",
+				"defaultValue": "bilva"
+			},
+			"dbname": {
+				"type": "string",
+				"defaultValue": "AdventureWorks2012"
+			},
+			"username": {
+				"type": "string",
+				"defaultValue": "BILVA\\Lenovo"
+			},
+			"password": {
+				"type": "string",
+				"defaultValue": "training123$"
+			}
+		},
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
 			"connectionString": "integrated security=True;data source=bilva;initial catalog=AdventureWorksDW2012",
 			"userName": "BILVA\\Lenovo",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2OWRlMmEwOC1hZGY1LTRjMzQtODQyMS1hMmZlNmIxNjczZDEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyMjkxODdjOS1hZjg3LTRkYzYtOWNlMy1lNDE5NGMzZTIwZjEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "OnPremIR",
